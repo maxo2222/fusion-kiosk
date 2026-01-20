@@ -1,37 +1,38 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-<meta charset="UTF-8">
-<title>FusionSolar Zoomed</title>
-<style>
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: #000;
-}
-#container {
-  /* ZOOM-FAKTOR HIER EINSTELLEN */
-  transform: scale(2.1);          /* 2.1 = 210% Vergrößerung */
-  transform-origin: 0 0;
+  <meta charset="UTF-8">
+  <title>FusionSolar Kiosk (Zoom)</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #000;
+    }
 
-  /* Virtuelle Rendergröße (FusionSolar erwartet 1080p) */
-  width: 1920px;
-  height: 1080px;
-}
-iframe {
-  width: 1920px;
-  height: 1080px;
-  border: none;
-}
-</style>
+    #container {
+      transform: scale(2.1);      /* Zoomfaktor – anpassen (1.0–2.5) */
+      transform-origin: 0 0;
+      width: 1920px;
+      height: 1080px;
+    }
+
+    iframe {
+      width: 1920px;
+      height: 1080px;
+      border: none;
+      display: block;
+    }
+  </style>
 </head>
 <body>
 
-<div id="container">
-<iframe src="https://uni001eu5.fusionsolar.huawei.com/pvmswebsite/nologin/assets/build/cloud.html#/kiosk?kk=9lLpb8F8L2CqcN1g2oM3diframe>
-</div>
+  <div id="container">
+    https://uni001eu5.fusionsolar.huawei.com/pvmswebsite/nologin/assets/build/cloud.html#/kiosk?kk=9lLpb8F8L2CqcN1g2oM3d53dJH2hzJJM
+  </div>
 
 </body>
 </html>
+	
